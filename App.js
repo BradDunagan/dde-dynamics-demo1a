@@ -1512,10 +1512,12 @@ let App = (function() {
 	}	//	updateBlockPositions()
 
 	self.checkCollisions = function() {
+		//	Are we even interested in collisions (do we want to grab somethoing)?
 		if ( ! self.grab ) {
 			return; }
 		
-		let g  = self.grab;
+		let g = self.grab;
+
 		if ( ! g.nAttempts ) {
 			console.log ( 'out of grab attempts' );
 			g.cb();
