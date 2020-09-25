@@ -1,6 +1,12 @@
 # dde-dynamics-demo1a
 A stripped down (some), cleaner version of demo1.
 
-From the root directory run python -m http.server 8000
+After cloning run
 
-Then go to localhost:8000 in your browser.
+    npm install
+    
+Then
+
+    npm start
+    
+Then go to localhost:3000 in your browser.
